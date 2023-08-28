@@ -1,0 +1,103 @@
+.containerProfile {
+  display: contents;
+}
+
+.containerProfileNav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.containerProfileNavPrevious {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin: 20px;
+}
+
+.containerProfileNavTextPrevious {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 15px;
+}
+
+.containerProfileNavTextNext {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 15px;
+}
+
+.profileText {
+  color: #8fa2a2;
+}
+
+.profileName {
+  font-weight: 600;
+}
+
+.profileTitle {
+  font-size: 40px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.containerProfileButton {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.containerProfileDuoButton {
+  display: flex;
+}
+.containerProfileDuoButton > div {
+  margin: 10px;
+}
+
+.containerLeft {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.containerLeft > p {
+  margin: 5px 0px 5px 0px;
+}
+
+.containerRight {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.containerRight > div > p {
+  margin: 5px 0px 5px 0px;
+}
+
+.personalInfoTitle {
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.textTel {
+  color: #369c96;
+  font-weight: bold;
+}
+
+.textData {
+  color: #8fa2a2;
+}
+
+.textDataDisplay {
+  display: flex;
+  align-content: center;
+}
+
+.reponseQuizTop {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}

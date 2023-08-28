@@ -1,0 +1,24 @@
+.containerDashboard {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.dashboardTop {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.dashboardTitle {
+  margin-left: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.containerObjectivesMain {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}

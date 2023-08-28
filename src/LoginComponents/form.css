@@ -1,0 +1,57 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 395px;
+  margin: 0 auto;
+}
+
+.containerInput {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.containerCheckbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.headerTitle {
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0px;
+  text-shadow: 1px 2px 2px black;
+  display: flex;
+  align-items: center;
+}
+
+.lightText {
+  color: #6a6a6a;
+  font-size: 14px;
+}
+
+label {
+  font-size: 16px;
+  margin: 5px 0px 5px 0px;
+}
+
+@media (max-width: 600px) {
+  .form {
+    max-width: none;
+  }
+
+  .headerTitle {
+    font-size: 24px;
+  }
+
+  .lightText {
+    font-size: 12px;
+  }
+
+  label {
+    font-size: 14px;
+  }
+}

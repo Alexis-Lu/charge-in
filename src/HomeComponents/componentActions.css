@@ -1,0 +1,16 @@
+.containerActions {
+  margin: 10px;
+}
+
+.containerButtons {
+  display: flex;
+}
+
+.actionsTitle {
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.actionsName {
+  color: #369c96;
+}

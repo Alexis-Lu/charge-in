@@ -1,0 +1,42 @@
+.containerHouse {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.containerHouseTop {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 10px;
+  align-content: center;
+}
+
+.containerHouseTopLeft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.containerHouseTopLeftItems {
+  margin: 0px 10px 0px 10px;
+}
+
+.containerHouseTopRight {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.containerHouseTopRightItems {
+  margin: 0px 10px 0px 10px;
+}
+
+.houseTitle {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.containerTable {
+  margin: 20px;
+}

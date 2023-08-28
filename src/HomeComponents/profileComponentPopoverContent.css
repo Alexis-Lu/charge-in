@@ -1,0 +1,38 @@
+.containerProfilePopover {
+  width: 300px;
+  height: 285px;
+  margin: 20px;
+}
+
+.popoverTitle {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.containerInfos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.containerPopoverItem {
+  margin-right: 10px;
+}
+
+.popoverName {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.popoverMail {
+  color: "#8FA2A2" !;
+  font-size: 12px;
+}
+
+.containerButton {
+  width: 100%;
+  display: flex;
+  margin: 20px 0px 20px -5px;
+  justify-content: flex-end;
+}

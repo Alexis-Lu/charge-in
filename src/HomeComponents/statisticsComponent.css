@@ -1,0 +1,22 @@
+.containerStatistics {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 10px;
+}
+
+.containerStatisticsItems {
+  margin: 10px 0px 10px 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.statisticsTitle {
+  font-size: 27px;
+  font-weight: 600;
+  padding-right: 20px;
+}
+
+.statisticsName {
+  color: #369c96;
+}
